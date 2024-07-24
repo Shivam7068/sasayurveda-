@@ -2,7 +2,7 @@ import MobileNav from "./MobileNav.jsx";
 import Navbar from "./Navbar";
 // import '../App.css'
 import { Link } from "react-router-dom";
-import logo from "/assets/react.svg";
+import logo from "/assets/Logo/logo.jpg";
 
 const Header = () => {
     return (

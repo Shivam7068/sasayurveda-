@@ -34,7 +34,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 10px 20px;
     z-index: 999;
@@ -44,7 +44,7 @@ header {
     text-decoration: none;
     font-size: 25px;
     color: inherit;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 /* menu on desktop */
@@ -138,7 +138,7 @@ header {
 }
 
 .nav-logo {
-    width: 70px;
+    width: 220px;
 }
 
 /* menu on mobile */
