@@ -6,6 +6,7 @@ import Testimonials from '../ui_component/home_com/Testmonial'
 import Gallery from '../ui_component/home_com/Gallery'
 import Footer from '../ui_component/common_comp/Footer'
 import Trust from '../ui_component/home_com/Trust'
+import NewsBoard from '../ui_component/home_com/NewsBoard'
 
 const Home = () => {
     return (
@@ -15,7 +16,8 @@ const Home = () => {
                 <About />
                 <IconCard />
                 <Gallery />
-                <Trust />
+                {/* <Trust /> */}
+                <NewsBoard />
                 <Testimonials />
             </div>
             <Footer />

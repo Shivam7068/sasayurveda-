@@ -276,7 +276,7 @@ header {
 }
 
 
-
+/* 
 @keyframes morph {
 
     0% {
@@ -290,4 +290,18 @@ header {
     100% {
         border-radius: 63% 37% 52% 48% / 52% 69% 31% 48%
     }
+} */
+
+@keyframes marquee {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 10s linear infinite;
 }

@@ -8,7 +8,7 @@ import UsefulLinks from './ui_component/home_com/UsefulLinks'
 const App = () => {
   return (
     <>
-      <BrowserRouter className=''>
+      <BrowserRouter className='relative'>
 
         <Header />
         <Routes>
