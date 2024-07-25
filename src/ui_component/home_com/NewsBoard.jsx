@@ -10,7 +10,7 @@ const NewsBoard = () => {
     return (
         <div className='flex gap-5 flex-col'>
             <Heading name={"Notice"} />
-            <div className="flex gap-3">
+            <div className="flex md:flex-row flex-col gap-3">
                 <VerticalMarquee items={items1} type={"News"} />
                 <VerticalMarquee items={items2} type={"Notice"} />
                 <VerticalMarquee items={items3} type={"Vacancies"} />

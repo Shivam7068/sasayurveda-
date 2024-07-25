@@ -31,7 +31,7 @@ const IconCard = () => {
         }
     ];
     return (
-        <div className='flex flex-col gap-10 w-full'>
+        <div className='flex flex-col gap-10 w-full '>
             <Heading name={"Why Choose Us"} />
             <div className='main max-w-screen w-full grid md:grid-cols-2 lg:grid-cols-4 gap-3 justify-center items-stretch m-auto'>
                 {whyChooseUs.map((pro, i) => (

@@ -5,36 +5,40 @@ export const menuItemsData = [
     },
     {
         title: "About",
-        url: "/about/",
+        url: "/about",
         submenu: [
             {
-                title: "College Council",
-                url: "/collegeCouncil.pdf",
-                target: "_blank",
+                title: "Introduction",
+                url: "/about/introduction",
             },
             {
-                title: "About College",
-                url: "/about/#about-college",
+                title: "Course & Fee",
+                url: "/about/course-fee",
             },
             {
-                title: "Mission & Vision",
+                title: "Rule and Regulation",
+                url: "/about/rule-regulation",
+            },
+            {
+                title: "Other Activities",
                 url: "/about/#mission-vision",
-            },
-            {
-                title: "Chairman's Message",
-                url: "/about/#chairman",
-            },
-            {
-                title: "Director's Message",
-                url: "/about/#director",
-            },
-            {
-                title: "Principal's Message",
-                url: "/about/#principal",
-            },
-            {
-                title: "Awards & Achievements",
-                url: "/about/#awards",
+                submenu: [
+                    {
+                        title: "State NOC",
+                        url: "/statenoc.jpg",
+                        target: "_blank",
+                    },
+                    {
+                        title: "University Affiliation",
+                        url: "/Affiliation_Letter_2021.jpg",
+                        target: "_blank",
+                    },
+                    {
+                        title: "Permission Letter By The Government of India",
+                        url: "/Permission2024.jpg",
+                        target: "_blank",
+                    },
+                ],
             },
             {
                 title: "Permissions and Affiliations",
@@ -60,8 +64,8 @@ export const menuItemsData = [
         ],
     },
     {
-        title: "Student",
-        url: "/student",
+        title: "Faculty",
+        url: "/",
         submenu: [
             {
                 title: "Courses & Fees",
@@ -107,7 +111,7 @@ export const menuItemsData = [
         ],
     },
     {
-        title: "NCISM Mandate",
+        title: "Student Zone",
         url: "/ncism-mandate",
         submenu: [
             {
@@ -193,47 +197,52 @@ export const menuItemsData = [
         ],
     },
     {
-        title: "Facilities",
-        url: "/facilities",
+        title: "College",
+        url: "/",
         submenu: [
             {
-                title: "Hospital Facilities",
-                url: "/facilities/#hospital-facilities",
+                title: "Introduction",
+                url: "/college/introduction",
             },
             {
-                title: "College & Other Facilities",
+                title: "College Council",
+                url: "/College/college-council",
+            },
+            {
+                title: "Infrastructure of College",
                 url: "/facilities/#college-facilities",
             },
             {
-                title: "Hostel",
+                title: "Infrastructure of Hostel",
                 url: "/facilities/#hostel",
             },
             {
-                title: "College Infrastructure",
-                url: "/college_infra.pdf",
-                target: "_blank",
-            },
-            {
-                title: "Hospital Infrastructure",
+                title: "Facilities",
                 url: "/hospital_infra.pdf",
                 target: "_blank",
             },
         ],
     },
     {
-        title: "Media",
+        title: "Hospital",
         url: "/media",
         submenu: [
             {
-                title: "Image Gallery",
+                title: "Introduction with Infrastructure",
                 url: "/media/#image-gallery",
             },
             {
-                title: "Video Gallery",
-                url: "/media/#video-gallery",
+                title: "Facilities And Charge",
+                url: "/events",
+                submenu: [
+                    {
+                        title: "Conference and Academic Activities",
+                        url: "conference-activities",
+                    },
+                ],
             },
             {
-                title: "Events",
+                title: "Monthly Attendance Of Patient",
                 url: "/events",
                 submenu: [
                     {
@@ -244,49 +253,9 @@ export const menuItemsData = [
             },
         ],
     },
+
     {
-        title: "Hospital Clinical Data",
-        url: "/hospital-clinical-data",
-        submenu: [
-            {
-                title: "Hospital OPD Data",
-                url: "https://softitlab.com/sakayu/home.php?year=2023",
-                target: "_blank",
-            },
-            {
-                title: "Hospital IPD Data",
-                url: "https://softitlab.com/sakayu/home.php?year=2023",
-                target: "_blank",
-            },
-            {
-                title: "Panchakarma",
-                url: "/panchakarma24.pdf",
-                target: "_blank",
-            },
-            {
-                title: "Ksharsutra",
-                url: "/ksharsutra24.pdf",
-                target: "_blank",
-            },
-            {
-                title: "Operation Theatre",
-                url: "/OT2024.pdf",
-                target: "_blank",
-            },
-            {
-                title: "Pathology",
-                url: "/pathology24.pdf",
-                target: "_blank",
-            },
-            {
-                title: "X-Ray / ECG",
-                url: "/xrayusg.pdf",
-                target: "_blank",
-            },
-        ],
-    },
-    {
-        title: "Contact",
-        url: "/contact",
+        title: "Contact Us",
+        url: "/contact-us",
     },
 ];

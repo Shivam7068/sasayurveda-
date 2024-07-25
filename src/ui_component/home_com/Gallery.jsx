@@ -7,7 +7,6 @@ const Gallery = () => {
         { id: 2, imgSrc: '/assets/lab.avif' },
         { id: 3, imgSrc: '/assets/lab.avif' },
         { id: 4, imgSrc: '/assets/lab.avif' },
-        { id: 5, imgSrc: '/assets/lab.avif' },
     ];
     return (
         <div className='h-auto bg-white p-4  rounded-lg z'>
@@ -20,7 +19,7 @@ const Gallery = () => {
                         items.map((obj, i) => (
 
 
-                            <div key={i} className={` relative bg-black overflow-hidden ${i + 1 == 1 && "md:col-span-2 md:h-[45vh] "} ${i + 1 == obj.length && "md:col-span-2"} rounded-lg group border-2 border-gray-800`}>
+                            <div key={i} className={` relative bg-black overflow-hidden ${i + 1 == 1 && "md:col-span-2 md:h-[45vh] "} ${i + 1 == 2 && "md:row-span-2"} rounded-lg group border-2 border-gray-800`}>
 
                                 <img className=' w-full h-full object-cover transition-transform duration-300 transform group-hover:scale-105' src={obj.imgSrc} alt="" />
 

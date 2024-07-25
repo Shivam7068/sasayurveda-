@@ -3,13 +3,13 @@ import Heading from '../common_comp/Heading'
 
 const About = () => {
     return (
-        <div className='flex flex-col w-full'>
+        <div className='flex flex-col w-full '>
             <Heading name={"About Us"} />
-            <div className='flex flex-wrap w-full justify-between m-auto items-center '>
-                <div className='flex bg-blue-600 w-[calc(30%-10px)]'>
+            <div className='flex md:flex-row flex-col  flex-wrap w-full justify-between m-auto items-center '>
+                <div className='flex bg-blue-600 md:w-[calc(30%-10px)]'>
                     <img src="/assets/lab.avif" alt="" srcset="" />
                 </div>
-                <div className='flex w-[calc(65%-10px)] text-[18px] font-normal pt-4'>
+                <div className='flex md:w-[calc(65%-10px)] text-[18px] font-normal pt-4'>
                     The SAS Ayurvedic Medical College & Hospital was established in 2013 by Dr. Ashok Pandey as “SAS Ayurvedic Hospital” governed by “Society of Advanced Studies.”
 
                     SAS Ayurvedic Hospital is established for enrich the research knowledge about the Indian System of Medicine but after the certain time Management committee decide to open an Ayurvedic College namely “SAS Ayurvedic Medical College & Hospital Rameshwar Road, Harhua, Varanasi, Uttar Pradesh Pin -221105”
