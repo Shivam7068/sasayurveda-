@@ -30,13 +30,11 @@ export const menuItemsData = [
                     },
                     {
                         title: "University Affiliation",
-                        url: "/Affiliation_Letter_2021.jpg",
-                        target: "_blank",
+                        url: "/university-affiliation",
                     },
                     {
                         title: "Permission Letter By The Government of India",
-                        url: "/Permission2024.jpg",
-                        target: "_blank",
+                        url: "/permission-letter",
                     },
                 ],
             },
@@ -68,43 +66,43 @@ export const menuItemsData = [
         url: "/",
         submenu: [
             {
-                title: "Courses & Fees",
-                url: "/student/#courses-fees",
-            },
-
-            {
-                title: "Admission Inquiry",
-                url: "/student/#admission-inquiry",
-            },
-            {
-                title: "Student List",
-                url: "/student/#student-list",
-            },
-            {
-                title: "E-Brochure",
-                url: "/student/#e-brochure",
-            },
-            {
-                title: "Result",
-                url: "/result",
+                title: "Teaching Staff",
                 submenu: [
                     {
-                        title: "BAMS (UG) Result",
+                        title: "List of Teaching Staff Department wise",
                         url: "/result/#bams-ug-result",
                     },
                     {
-                        title: "PG Medical AU Result",
+                        title: "Monthly Attendance of Teaching Staff",
                         url: "/result/#pg-medical-au-result",
-                        submenu: [
-                            {
-                                title: "MD First Year",
-                                url: "md-first-year",
-                            },
-                            {
-                                title: "MD Final Year",
-                                url: "md-final-year",
-                            },
-                        ],
+                    },
+                ],
+            },
+            {
+                title: "Non-Teaching Staff",
+                submenu: [
+                    {
+                        title: "List of Non-Teaching Staff Department wise",
+                        url: "/result/#bams-ug-result",
+                    },
+                    {
+                        title: "Monthly Attendance of Non-Teaching Staff",
+                        url: "/result/#pg-medical-au-result",
+
+                    },
+                ],
+            },
+            {
+                title: "Hospital Staff",
+                submenu: [
+                    {
+                        title: "List of Hospital Staff Department wise",
+                        url: "/result/#bams-ug-result",
+                    },
+                    {
+                        title: "Monthly Attendance of Hospital Staff",
+                        url: "/result/#pg-medical-au-result",
+
                     },
                 ],
             },

@@ -12,6 +12,7 @@ import CourseFeePage from './pages/CouserFeePage'
 import RulesRegulationPage from './pages/RulesRegulationPage'
 import Footer from './ui_component/common_comp/Footer'
 import CollegeHostelPage from './pages/CourseIntroduction'
+import Affiliation from './pages/Affiliation'
 
 const App = () => {
   return (
@@ -27,6 +28,8 @@ const App = () => {
           <Route path='/about/rule-regulation' element={<RulesRegulationPage />} />
           <Route path='/College/college-council' element={<CollegeCouncil />} />
           <Route path='/college/introduction' element={<CollegeHostelPage />} />
+          <Route path='/university-affiliation' element={<Affiliation />} />
+          <Route path='/permission-letter' element={<Affiliation />} />
 
         </Routes>
         <UsefulLinks />

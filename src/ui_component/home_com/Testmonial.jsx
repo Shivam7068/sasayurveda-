@@ -51,12 +51,12 @@ const Testimonials = () => {
                     <Slider {...settings}>
                         {
                             testimonials.map((obj, i) => (
-                                <div key={i} className='flex w-full flex-col bg-[#eee] border-none shadow-none items-center justify-center relative before:absolute before:content-["_"] before:h-[80px] before:bg-white before:w-full before:top-0'>
+                                <div key={i} className='flex w-full flex-col bg-[#eee] border-none rounded-xl items-center justify-center  relative '>
 
                                     {/* testimonial image  */}
                                     <div className=' flex outline-none border-none w-full justify-center items-center'>
 
-                                        <div className='flex w-[150px] h-[150px] rounded-full overflow-hidden z-[99] border-4 border-white '>
+                                        <div className='flex w-[150px] h-[150px] rounded-full mt-2 overflow-hidden z-[99] border-4 border-white '>
 
                                             <img className='h-full w-full' src={obj.image} alt="" />
 
@@ -64,7 +64,7 @@ const Testimonials = () => {
 
                                     </div>
                                     {/* name and quote */}
-                                    <div className='text-center flex flex-col gap-5 py-[10px]'>
+                                    <div className='text-center flex flex-col gap-5 p-6'>
                                         <h1 className='text-lg font-bold text-blue-500'>
                                             {obj.name}
                                         </h1>
