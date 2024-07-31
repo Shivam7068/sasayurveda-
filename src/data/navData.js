@@ -74,7 +74,8 @@ export const menuItemsData = [
                     },
                     {
                         title: "Monthly Attendance of Teaching Staff",
-                        url: "/result/#pg-medical-au-result",
+                        url: "https://drive.google.com/file/d/1LL73mfca32rEStFZcu8GBeGnAZkwQz2g/view?usp=sharing",
+                        target:"_blank"
                     },
                 ],
             },
@@ -83,11 +84,12 @@ export const menuItemsData = [
                 submenu: [
                     {
                         title: "List of Non-Teaching Staff Department wise",
-                        url: "/result/#bams-ug-result",
+                        url: "https://drive.google.com/file/d/1Cgzp7Sk51aZKYDQV4qtpeZ2reEaGdE7W/view?usp=sharing",
+                         target:"_blank"
                     },
                     {
                         title: "Monthly Attendance of Non-Teaching Staff",
-                        url: "/result/#pg-medical-au-result",
+                        url: "https://drive.google.com/file/d/1LL73mfca32rEStFZcu8GBeGnAZkwQz2g/view?usp=sharing",
 
                     },
                 ],
@@ -96,23 +98,14 @@ export const menuItemsData = [
                 title: "Hospital Staff",
                 submenu: [
                     {
-                        title: "BAMS (UG) Result",
-                        url: "/result/#bams-ug-result",
+                        title: "List of Hospital Staff Department Wise",
+                        url: "https://drive.google.com/file/d/1fDh4RZr6FB406DoUKxfbtz0-9B18ZxCd/view?usp=sharing",
                     },
                     {
-                        title: "PG Medical AU Result",
-                        url: "/result/#pg-medical-au-result",
-                        submenu: [
-                            {
-                                title: "MD First Year",
-                                url: "md-first-year",
-                            },
-                            {
-                                title: "MD Final Year",
-                                url: "md-final-year",
-                            },
-                        ],
+                        title: "Monthly Attendence of hospital staff",
+                        url: "https://drive.google.com/file/d/1xeK19j8tnbvUZvvCVk4XAxoxevu43mK9/view?usp=sharing",
                     },
+                    
                 ],
             },
         ],
