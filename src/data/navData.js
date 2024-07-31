@@ -20,12 +20,12 @@ export const menuItemsData = [
                 url: "/about/rule-regulation",
             },
             {
-                title: "Other Activities",
+                title: "Permissions and Affiliations",
                 url: "/about/#mission-vision",
                 submenu: [
                     {
                         title: "State NOC",
-                        url: "/statenoc.jpg",
+                        url: "https://drive.google.com/file/d/15NTBIR91j44ddUPE493Ouw7rliaLDB8x/view?usp=drive_link",
                         target: "_blank",
                     },
                     {
@@ -39,23 +39,29 @@ export const menuItemsData = [
                 ],
             },
             {
-                title: "Permissions and Affiliations",
+                title: "Other Activities",
                 url: "",
                 submenu: [
                     {
-                        title: "State NOC",
-                        url: "/statenoc.jpg",
+                        title: "Continuous Medical Education",
+                        url: "/gallery/cme", 
+                    },
+                    {
+                        title: "Conference/Seminar",
+                        url: "/gallery/conference",
+                    },
+                    {
+                        title: "Award and Achievement",
+                        url: "/gallery/award",
+                    },
+                    {
+                        title: "Medical Camp",
+                        url: "https://drive.google.com/file/d/1XYaUn-i2xpZv6w_Wi2u67QFW2zZt_TEf/view?usp=drive_link",
                         target: "_blank",
                     },
                     {
-                        title: "University Affiliation",
-                        url: "/Affiliation_Letter_2021.jpg",
-                        target: "_blank",
-                    },
-                    {
-                        title: "Permission Letter By The Government of India",
-                        url: "/Permission2024.jpg",
-                        target: "_blank",
+                        title: "Games and other extra-Curricular activities",
+                        url: "/gallery/extra-carricular",
                     },
                 ],
             },
@@ -75,7 +81,7 @@ export const menuItemsData = [
                     {
                         title: "Monthly Attendance of Teaching Staff",
                         url: "https://drive.google.com/file/d/1LL73mfca32rEStFZcu8GBeGnAZkwQz2g/view?usp=sharing",
-                        target:"_blank"
+                        target: "_blank"
                     },
                 ],
             },
@@ -85,7 +91,7 @@ export const menuItemsData = [
                     {
                         title: "List of Non-Teaching Staff Department wise",
                         url: "https://drive.google.com/file/d/1Cgzp7Sk51aZKYDQV4qtpeZ2reEaGdE7W/view?usp=sharing",
-                         target:"_blank"
+                        target: "_blank"
                     },
                     {
                         title: "Monthly Attendance of Non-Teaching Staff",
@@ -105,7 +111,7 @@ export const menuItemsData = [
                         title: "Monthly Attendence of hospital staff",
                         url: "https://drive.google.com/file/d/1xeK19j8tnbvUZvvCVk4XAxoxevu43mK9/view?usp=sharing",
                     },
-                    
+
                 ],
             },
         ],
@@ -304,7 +310,7 @@ export const menuItemsData = [
         submenu: [
             {
                 title: "Introduction with Infrastructure",
-                url: "/media/#image-gallery",
+                url: "/infra_hospital",
             },
             {
                 title: "Facilities And Charge",
@@ -312,13 +318,13 @@ export const menuItemsData = [
                 submenu: [
                     {
                         title: "Department wise Clinical Material and Facilities",
-                        target:"_blank",
+                        target: "_blank",
 
                         url: "conference-activities",
                     },
                     {
                         title: "Charge",
-                        target:"_blank",
+                        target: "_blank",
                         url: "conference-activities",
                     },
                 ],
@@ -329,37 +335,37 @@ export const menuItemsData = [
                 submenu: [
                     {
                         title: "For OPD",
-                        target:"_blank",
+                        target: "_blank",
                         url: "conference-activities",
                     },
                     {
                         title: "For IPD",
-                        target:"_blank",
+                        target: "_blank",
                         url: "conference-activities",
                     },
                     {
                         title: "Panchakarma",
-                        target:"_blank",
+                        target: "_blank",
                         url: "conference-activities",
                     },
                     {
                         title: "Ksharsutra",
-                        target:"_blank",
+                        target: "_blank",
                         url: "conference-activities",
                     },
                     {
                         title: "Operation Theater",
-                        target:"_blank",
+                        target: "_blank",
                         url: "conference-activities",
                     },
                     {
                         title: "Pathology",
-                        target:"_blank",
+                        target: "_blank",
                         url: "conference-activities",
                     },
                     {
                         title: "X-Rays/USG Section",
-                        target:"_blank",
+                        target: "_blank",
                         url: "conference-activities",
                     },
                 ],

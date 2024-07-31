@@ -13,6 +13,10 @@ import RulesRegulationPage from './pages/RulesRegulationPage'
 import Footer from './ui_component/common_comp/Footer'
 import CollegeHostelPage from './pages/CourseIntroduction'
 import Affiliation from './pages/Affiliation'
+import PermissionLetters from './pages/Permission_letter'
+import HospitalInfrastructure from './pages/Infra_Hospital'
+import GalleryPage from './ui_component/common_comp/GalleryPage'
+import { award, cme, conference, extraCarri } from './data/gallery'
 
 const App = () => {
   return (
@@ -29,7 +33,12 @@ const App = () => {
           <Route path='/College/college-council' element={<CollegeCouncil />} />
           <Route path='/college/introduction' element={<CollegeHostelPage />} />
           <Route path='/university-affiliation' element={<Affiliation />} />
-          <Route path='/permission-letter' element={<Affiliation />} />
+          <Route path='/permission-letter' element={<PermissionLetters />} />
+          <Route path='/infra_hospital' element={<HospitalInfrastructure />} />
+          <Route path='/gallery/cme' element={<GalleryPage galleryData={cme} name={"Continuous Medical Education(CME)"} />} />
+          <Route path='/gallery/conference' element={<GalleryPage galleryData={conference} name={"Conference"} />} />
+          <Route path='/gallery/award' element={<GalleryPage galleryData={award} name={"Award and Achivements"} />} />
+          <Route path='/gallery/extra-carricular' element={<GalleryPage galleryData={extraCarri} name={"Games and other extra curricular activities"} />} />
 
         </Routes>
         <UsefulLinks />
