@@ -25,7 +25,7 @@ export const menuItemsData = [
                 submenu: [
                     {
                         title: "State NOC",
-                        url: "/statenoc.jpg",
+                        url: "https://drive.google.com/file/d/1tE399VUo8cIi6kSj3SgWLvrrD2G8uYBO/view?usp=sharing",
                         target: "_blank",
                     },
                     {
@@ -65,49 +65,58 @@ export const menuItemsData = [
     },
     {
         title: "Faculty",
-        url: "/",
+        url: "https://drive.google.com/drive/u/1/folders/1rQ-VBC0FQ04DSv0-3JMmAIDqp5YDKt0h",
         submenu: [
             {
-                title: "Courses & Fees",
-                url: "/student/#courses-fees",
+                title: "Other Activities",
+                url: "/about/#mission-vision",
+                submenu: [
+                    {
+                        title: "State NOC",
+                        url: "https://drive.google.com/file/d/1tE399VUo8cIi6kSj3SgWLvrrD2G8uYBO/view?usp=sharing",
+                        target: "_blank",
+                    },
+                    {
+                        title: "University Affiliation",
+                        url: "/Affiliation_Letter_2021.jpg",
+                        target: "_blank",
+                    }
+                ],
             },
 
             {
-                title: "Admission Inquiry",
-                url: "/student/#admission-inquiry",
-            },
-            {
-                title: "Student List",
-                url: "/student/#student-list",
-            },
-            {
-                title: "E-Brochure",
-                url: "/student/#e-brochure",
-            },
-            {
-                title: "Result",
-                url: "/result",
+                title: "Other Activities",
+                url: "/about/#mission-vision",
                 submenu: [
                     {
-                        title: "BAMS (UG) Result",
-                        url: "/result/#bams-ug-result",
+                        title: "State NOC",
+                        url: "https://drive.google.com/file/d/1tE399VUo8cIi6kSj3SgWLvrrD2G8uYBO/view?usp=sharing",
+                        target: "_blank",
                     },
                     {
-                        title: "PG Medical AU Result",
-                        url: "/result/#pg-medical-au-result",
-                        submenu: [
-                            {
-                                title: "MD First Year",
-                                url: "md-first-year",
-                            },
-                            {
-                                title: "MD Final Year",
-                                url: "md-final-year",
-                            },
-                        ],
-                    },
+                        title: "University Affiliation",
+                        url: "/Affiliation_Letter_2021.jpg",
+                        target: "_blank",
+                    }
                 ],
             },
+            {
+                title: "Other Activities",
+                url: "/about/#mission-vision",
+                submenu: [
+                    {
+                        title: "State NOC",
+                        url: "https://drive.google.com/file/d/1tE399VUo8cIi6kSj3SgWLvrrD2G8uYBO/view?usp=sharing",
+                        target: "_blank",
+                    },
+                    {
+                        title: "University Affiliation",
+                        url: "/Affiliation_Letter_2021.jpg",
+                        target: "_blank",
+                    }
+                ],
+            },
+           
         ],
     },
     {
