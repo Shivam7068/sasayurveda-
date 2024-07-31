@@ -31,19 +31,13 @@ const UsefulLinks = () => {
                 >
                     <ul className="useful-links">
                         <a className="" target="_blank" href="https://ncismindia.org/">
-                            <li className="bg-slate-50 mb-4">NCISM</li>
+                            <li className="bg-slate-50 mb-4">Charak Samhita Ebook</li>
                         </a>
                         <a className="" target="_blank" href="https://ayush.gov.in/">
-                            <li className="bg-slate-50 mb-4">Ministry of AYUSH</li>
+                            <li className="bg-slate-50 mb-4">Sushrut Samhita Ebook</li>
                         </a>
                         <a className="" target="_blank" href="https://www.mggaugkp.ac.in/">
-                            <li className="bg-slate-50 mb-4">MGGAUGKP</li>
-                        </a>
-                        <a className=""
-                            target="_blank"
-                            href="https://www.upayushcounseling.upsdc.gov.in/"
-                        >
-                            <li className="bg-slate-50 mb-4">UP AYUSH Councelling</li>
+                            <li className="bg-slate-50 mb-4">Ashtang Hriday Ebook</li>
                         </a>
                     </ul>
                 </div>

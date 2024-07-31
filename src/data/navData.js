@@ -25,7 +25,7 @@ export const menuItemsData = [
                 submenu: [
                     {
                         title: "State NOC",
-                        url: "https://drive.google.com/file/d/1tE399VUo8cIi6kSj3SgWLvrrD2G8uYBO/view?usp=sharing",
+                        url: "/statenoc.jpg",
                         target: "_blank",
                     },
                     {
@@ -63,7 +63,7 @@ export const menuItemsData = [
     },
     {
         title: "Faculty",
-        url: "https://drive.google.com/drive/u/1/folders/1rQ-VBC0FQ04DSv0-3JMmAIDqp5YDKt0h",
+        url: "/",
         submenu: [
             {
                 title: "Teaching Staff",
@@ -96,22 +96,13 @@ export const menuItemsData = [
                 title: "Hospital Staff",
                 submenu: [
                     {
-                        title: "BAMS (UG) Result",
+                        title: "List of Hospital Staff Department wise",
                         url: "/result/#bams-ug-result",
                     },
                     {
-                        title: "PG Medical AU Result",
+                        title: "Monthly Attendance of Hospital Staff",
                         url: "/result/#pg-medical-au-result",
-                        submenu: [
-                            {
-                                title: "MD First Year",
-                                url: "md-first-year",
-                            },
-                            {
-                                title: "MD Final Year",
-                                url: "md-final-year",
-                            },
-                        ],
+
                     },
                 ],
             },
@@ -122,85 +113,160 @@ export const menuItemsData = [
         url: "/ncism-mandate",
         submenu: [
             {
-                title: "Principal and Medical Superintendent",
-                url: "/ncism-mandate/#principal-medical-superintendent",
-            },
+                title: "List of Student",
+                submenu: [
+                    {
+                        title: "Student List Batch (2022-23)",
+                        url: "/result/#bams-ug-result",
+                    },
+                    {
+                        title: "Student List (Batch 2021-22)",
+                        url: "/result/#pg-medical-au-result",
 
-            {
-                title: "Intake Capacity",
-                url: "/ncism-mandate/#intake-capacity",
-            },
-            {
-                title: "Staff List",
-                url: "/ncism-mandate/#staff-list",
-                submenu: [
-                    {
-                        title: "Teaching Staff",
-                        url: "teaching-staff",
                     },
                     {
-                        title: "Non-Teaching Staff",
-                        url: "non-teaching-staff",
+                        title: "Student list (Batch 2020-21)",
+                        url: "/result/#pg-medical-au-result",
+
                     },
                     {
-                        title: "Clinical Staff",
-                        url: "clinical-staff",
+                        title: "Student List (Batch 2019-20)",
+                        url: "/result/#pg-medical-au-result",
+
                     },
                     {
-                        title: "Hospital Staff",
-                        url: "hospital-staff",
+                        title: "Student List (Batch 2018-19)",
+                        url: "/result/#pg-medical-au-result",
+
+                    },
+                    {
+                        title: "Student List (Batch 2017-18)",
+                        url: "/result/#pg-medical-au-result",
+
                     },
                 ],
             },
             {
-                title: "Student Details",
-                url: "/ncism-mandate/#student-details",
-            },
-            {
-                title: "Research Publications",
-                url: "/ncism-mandate/#research-publications",
-            },
-            {
-                title: "Conferences and Academic Activities",
-                url: "/ncism-mandate/#conference-activities",
-            },
-            {
-                title: "Attendance Report",
-                url: "attendance-report",
+                title: "Monthly Attendance of Students",
                 submenu: [
                     {
-                        title: "BAMS Students Attendance",
-                        url: "bams-students-attendance",
+                        title: "ATTENDANCE OF STUDENTS (BATCH 2020-21)",
+                        url: "/result/#bams-ug-result",
                     },
                     {
-                        title: "Teaching Staff Attendance",
-                        url: "/T_Attendance24.pdf",
-                        target: "_blank",
+                        title: "ATTENDANCE OF STUDENTS (BATCH 2019-20)",
+                        url: "/result/#pg-medical-au-result",
+
                     },
                     {
-                        title: "College Non-Teaching Staff Attendance",
-                        url: "/NT_Atten24.pdf",
-                        target: "_blank",
+                        title: "ATTENDANCE OF STUDENTS (BATCH 2018-19)",
+                        url: "/result/#pg-medical-au-result",
+
                     },
                     {
-                        title: "Hospital Non-Teaching Staff Attendance",
-                        url: "/H_Atten24.pdf",
-                        target: "_blank",
+                        title: "ATTENDANCE OF STUDENTS (BATCH 2017-18)",
+                        url: "/result/#pg-medical-au-result",
+
                     },
                 ],
             },
             {
-                title: "Affiliations",
-                url: "/ncism-mandate/#affiliations",
-            },
-            {
-                title: "Clinical Material in Hospital",
-                url: "/ncism-mandate/#clinical-material-in-hospital",
-            },
-            {
-                title: "Hospital Month wise OP/IP Statistics",
-                url: "/ncism-mandate/#hospital-month-wise-opip-statistics",
-            },
+                title: "Results",
+                submenu: [
+                    {
+                        title: "Internal Examination – Batch 2017-18",
+                        url: "/result/#bams-ug-result",
+                        target: "_blank",
+                    },
+                    {
+                        title: "Internal Examination – Batch 2018-19",
+                        url: "/result/#bams-ug-result",
+                        target: "_blank",
+                    },
+                    {
+                        title: "University examination Batch 2020-21",
+                        url: "/result/#bams-ug-result",
+                        target: "_blank",
+                    },
+                    {
+                        title: "University examination Batch 2019-20",
+                        submenu: [
+                            {
+                                title: "First year 2019-20",
+                                url: "/result/#bams-ug-result",
+                            },
+                            {
+                                title: "Second year 2019-20",
+                                url: "/result/#pg-medical-au-result",
+
+                            },
+                            {
+                                title: "Third year 2019-20",
+                                url: "/result/#pg-medical-au-result",
+
+                            },
+                            {
+                                title: "Fourth year 2019-20",
+                                url: "/result/#pg-medical-au-result",
+
+                            },
+                        ],
+                    },
+                    {
+                        title: "University examination Batch 2018-19",
+                        submenu: [
+                            {
+                                title: "First year 2018-19",
+                                url: "/result/#bams-ug-result",
+                            },
+                            {
+                                title: "Second year 2018-19",
+                                url: "/result/#pg-medical-au-result",
+
+                            },
+                            {
+                                title: "Third year 2018-19",
+                                url: "/result/#pg-medical-au-result",
+
+                            },
+                            {
+                                title: "Fourth year 2018-19",
+                                url: "/result/#pg-medical-au-result",
+
+                            },
+                        ],
+                    },
+                    {
+                        title: "University examination Batch 2017-18",
+                        submenu: [
+                            {
+                                title: "First year 2017-18",
+                                target: "_blank",
+                                url: "/result/#bams-ug-result",
+                            },
+                            {
+                                title: "Second year 2017-18",
+                                target: "_blank",
+                                url: "/result/#pg-medical-au-result",
+
+                            },
+                            {
+                                title: "Third year 2017-18",
+                                target: "_blank",
+                                url: "/result/#pg-medical-au-result",
+
+                            },
+                            {
+                                title: "Fourth year 2017-18",
+                                target: "_blank",
+                                url: "/result/#pg-medical-au-result",
+
+                            },
+                        ],
+                    },
+
+                ],
+            }
         ],
     },
     {
@@ -243,7 +309,14 @@ export const menuItemsData = [
                 url: "/events",
                 submenu: [
                     {
-                        title: "Conference and Academic Activities",
+                        title: "Department wise Clinical Material and Facilities",
+                        target:"_blank",
+
+                        url: "conference-activities",
+                    },
+                    {
+                        title: "Charge",
+                        target:"_blank",
                         url: "conference-activities",
                     },
                 ],
@@ -253,7 +326,38 @@ export const menuItemsData = [
                 url: "/events",
                 submenu: [
                     {
-                        title: "Conference and Academic Activities",
+                        title: "For OPD",
+                        target:"_blank",
+                        url: "conference-activities",
+                    },
+                    {
+                        title: "For IPD",
+                        target:"_blank",
+                        url: "conference-activities",
+                    },
+                    {
+                        title: "Panchakarma",
+                        target:"_blank",
+                        url: "conference-activities",
+                    },
+                    {
+                        title: "Ksharsutra",
+                        target:"_blank",
+                        url: "conference-activities",
+                    },
+                    {
+                        title: "Operation Theater",
+                        target:"_blank",
+                        url: "conference-activities",
+                    },
+                    {
+                        title: "Pathology",
+                        target:"_blank",
+                        url: "conference-activities",
+                    },
+                    {
+                        title: "X-Rays/USG Section",
+                        target:"_blank",
                         url: "conference-activities",
                     },
                 ],
