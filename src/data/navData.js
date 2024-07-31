@@ -25,7 +25,7 @@ export const menuItemsData = [
                 submenu: [
                     {
                         title: "State NOC",
-                        url: "/statenoc.jpg",
+                        url: "https://drive.google.com/file/d/1tE399VUo8cIi6kSj3SgWLvrrD2G8uYBO/view?usp=sharing",
                         target: "_blank",
                     },
                     {
@@ -63,7 +63,7 @@ export const menuItemsData = [
     },
     {
         title: "Faculty",
-        url: "/",
+        url: "https://drive.google.com/drive/u/1/folders/1rQ-VBC0FQ04DSv0-3JMmAIDqp5YDKt0h",
         submenu: [
             {
                 title: "Teaching Staff",
@@ -96,13 +96,22 @@ export const menuItemsData = [
                 title: "Hospital Staff",
                 submenu: [
                     {
-                        title: "List of Hospital Staff Department wise",
+                        title: "BAMS (UG) Result",
                         url: "/result/#bams-ug-result",
                     },
                     {
-                        title: "Monthly Attendance of Hospital Staff",
+                        title: "PG Medical AU Result",
                         url: "/result/#pg-medical-au-result",
-
+                        submenu: [
+                            {
+                                title: "MD First Year",
+                                url: "md-first-year",
+                            },
+                            {
+                                title: "MD Final Year",
+                                url: "md-final-year",
+                            },
+                        ],
                     },
                 ],
             },
