@@ -7,14 +7,14 @@ import front3 from "/assets/gallery/image3.avif";
 import front4 from "/assets/gallery/image4.avif";
 
 const SingleCrousel = () => {
-    const heroimages = [front1, front2, front3,front4];
+    const heroimages = [front1, front2, front3, front4];
 
     return (
         <div className="relative">
-            <Carousel 
-                showArrows 
-                infiniteLoop 
-                showThumbs={false} 
+            <Carousel
+                showArrows
+                infiniteLoop
+                showThumbs={false}
                 showIndicators={false}
                 useKeyboardArrows
                 autoPlay
@@ -37,8 +37,11 @@ const SingleCrousel = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="fixed bottom-0 w-full bg-white text-black">
-                            {/* You can add more content here if needed */}
+                        <div className='bg-black'>
+
+                            <div className=" fixed top-[50vh] w-[100vw] md:w-[100vw] bg-white h-[35vh] text-white flex flex-col right_clip ">
+
+                            </div>
                         </div>
                     </div>
                 ))}
