@@ -17,7 +17,7 @@ const Footer = () => {
                         </Link> */}
 
                         <div className=' '>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d461413.69138620474!2d82.9111585!3d25.3782041!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x398e2cb4aeaef9a9%3A0x12269b5f9fae7372!2sHarhua%20Uttar%20Pradesh%20221105!3m2!1d25.378204099999998!2d82.9111585!5e0!3m2!1sen!2sin!4v1721797887893!5m2!1sen!2sin" md:width="820" height="320" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d461413.69138620474!2d82.9111585!3d25.3782041!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x398e2cb4aeaef9a9%3A0x12269b5f9fae7372!2sHarhua%20Uttar%20Pradesh%20221105!3m2!1d25.378204099999998!2d82.9111585!5e0!3m2!1sen!2sin!4v1721797887893!5m2!1sen!2sin" width="820" height="320" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
                     </div>

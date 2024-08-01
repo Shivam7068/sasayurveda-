@@ -17,7 +17,7 @@ const IconCard = () => {
         {
             icon: <FaChalkboardTeacher />,
             title: 'Experienced Faculty',
-            description: 'Our expert faculty bring a wealth of knowledge, skills, and real-world experience to enhance students learning journeys.'
+            description: 'Our expert faculty bring a wealth of knowledge, skills, and real-world experience to enhance students learning journeys learning needs of our students.'
         },
         {
             icon: <FaBuilding />,

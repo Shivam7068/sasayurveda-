@@ -33,6 +33,13 @@ const CourseFeePage = () => {
                         <li>Examination fee: As decided by Mahatma Gandhi Kashi Vidyapeeth</li>
                         <li>Security Money: ₹50,000/- one time at the time of admission (Refundable after completion of Course)</li>
                         <li>Other fee: As decided by College Management</li>
+                        <li>The Letter Dated 15th January 2021 Was Received From The Govt. of  AYUSH Section,  Director And Ayurveda Services, Lucknow, In Which It Is Written That The Fee of Our Organization (SAS Ayurvedic Medical College and Hospital)  Has Been Fixed At 255500 (Two Lakh Fifty five Thousand five hundred only) for Student.
+                        </li>
+                        <li className='text-red-600 font-medium'>
+                            <a href="" target='_blank'>
+                                Click to See Decided Fee Govt. of AYUSH, Director, Lucknow
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="bg-white shadow-md rounded-lg p-6 mb-8">
