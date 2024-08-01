@@ -4,7 +4,7 @@ import Heading from '../common_comp/Heading';
 const Gallery = () => {
     const items = [
         { id: 2, imgSrc: '/assets/gallery/Icu.avif', title: 'ICU' },
-        { id: 1, imgSrc: '', title: '' },
+        { id: 1, imgSrc: '/assets/gallery/image1.avif', title: '' },
         { id: 3, imgSrc: '/assets/gallery/lab.avif', title: 'Lab' },
         { id: 4, imgSrc: '/assets/gallery/herbal.avif', title: 'Herbal Garden' },
     ];
