@@ -8,7 +8,7 @@ const About = () => {
             <div className='flex flex-col md:flex-row flex-wrap w-full justify-between m-auto items-center h-full gap-4'>
                 {/* Image Section */}
                 <div className='flex bg-blue-600 md:w-[calc(30%-10px)] w-full h-[60vh] shadow-lg shadow-slate-500 overflow-hidden'>
-                    <img className='object-cover w-full h-full' src="/assets/lab.avif" alt="SAS Ayurvedic Medical College & Hospital" />
+                    <img className='object-cover w-full h-full' src="/assets/gallery/imageAbout.avif" alt="SAS Ayurvedic Medical College & Hospital" />
                 </div>
                 {/* Content Section */}
                 <div className='flex flex-col md:w-[calc(65%-10px)] w-full text-[18px] font-normal p-4 bg-white shadow-lg rounded-lg'>
