@@ -24,7 +24,7 @@ const SingleCrousel = () => {
                             src={image}
                             alt={`Slide ${index + 1}`}
                         />
-                        <div className="absolute left-0 inset-0 flex items-start justify-start">
+                        <div className="absolute bottom-0 inset-0 flex items-start justify-start">
                             <div className="bg-black bg-opacity-50 p-4 rounded text-white w-full h-full ">
                                 <span className=' md:text-[1.5rem] font-bold'>Embark on a Journey of Healing with</span>
                                 <h1 className='font-bold md:text-[6rem]'>Ayurveda</h1>
