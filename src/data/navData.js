@@ -276,8 +276,8 @@ export const menuItemsData = [
         url: "/",
         submenu: [
             {
-                title: "Introduction",
-                // url: "/college/introduction",
+                title: " College Introduction",
+                 url: "/college/intro",
             },
             {
                 title: "College Council",
@@ -307,7 +307,7 @@ export const menuItemsData = [
         submenu: [
             {
                 title: "Introduction with Infrastructure",
-                // url: "/media/#image-gallery",
+                url: "/infra_hospital",
             },
             {
                 title: "Facilities And Charge",

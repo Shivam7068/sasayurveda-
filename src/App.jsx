@@ -17,6 +17,8 @@ import PermissionLetters from './pages/Permission_letter'
 import HospitalInfrastructure from './pages/Infra_Hospital'
 import GalleryPage from './ui_component/common_comp/GalleryPage'
 import { award, cme, conference, extraCarri } from './data/gallery'
+import InfrastructureDetails from './pages/Infra_Hospital'
+import CollegeIntroduction from './pages/CollegeIntroduction'
 
 const App = () => {
   return (
@@ -34,11 +36,12 @@ const App = () => {
           <Route path='/college/introduction' element={<CollegeHostelPage />} />
           <Route path='/university-affiliation' element={<Affiliation />} />
           <Route path='/permission-letter' element={<PermissionLetters />} />
-          <Route path='/infra_hospital' element={<HospitalInfrastructure />} />
+          <Route path='/infra_hospital' element={<InfrastructureDetails />} />
           <Route path='/gallery/cme' element={<GalleryPage galleryData={cme} name={"Continuous Medical Education(CME)"} />} />
           <Route path='/gallery/conference' element={<GalleryPage galleryData={conference} name={"Conference"} />} />
           <Route path='/gallery/award' element={<GalleryPage galleryData={award} name={"Award and Achivements"} />} />
           <Route path='/gallery/extra-carricular' element={<GalleryPage galleryData={extraCarri} name={"Games and other extra curricular activities"} />} />
+          <Route path='/college/intro' element={<CollegeIntroduction/>} />
 
         </Routes>
         <UsefulLinks />
