@@ -1,0 +1,93 @@
+export const facilitiesData = [
+    { srNo: 1, facility: 'IPD ADMISSION FEE', charge: '20' },
+    { srNo: 2, facility: 'ECG', charge: '50' },
+    { srNo: 3, facility: 'KSHAR SHUTRA', charge: '500' },
+    { srNo: 4, facility: 'X-RAY', charge: '60/100/200' }
+];
+
+export const panchkarmaTherapyCharges = [
+    { facility: 'SHIRODHAR', charge: '500' },
+    { facility: 'KATIVASTHI', charge: '200' },
+    { facility: 'SNEHAN', charge: '150' },
+    { facility: 'SWEDAN', charge: '250' },
+    { facility: 'VIRECHANA', charge: '50' },
+    { facility: 'VAMANA', charge: '200' },
+    { facility: 'BASTI', charge: '50' },
+    { facility: 'NASHYA', charge: '20' },
+    { facility: 'TARPANA', charge: '50' },
+];
+
+export const shalyaOTCharges = [
+    { facility: 'PITTASHMARI', charge: '5000' },
+    { facility: 'ANTRAVRIDHHI', charge: '2000' },
+    { facility: 'MUTRAVRIDHHI', charge: '500' },
+    { facility: 'ANTTAPUCHHSODH', charge: '3000' },
+];
+
+export const striPrasutiOTCharges = [
+    { facility: 'KASTARTAV', charge: '1000' },
+    { facility: 'YONIBHRANSH', charge: '3000' },
+    { facility: 'GARBHSRAW', charge: '1500' },
+    { facility: 'STAN VRIDADHI', charge: '1500' },
+    { facility: 'YONIKANDU', charge: '1500' },
+    { facility: 'RAKT PRADER', charge: '1500' },
+    { facility: 'SWET-PRADER', charge: '1500' },
+    { facility: 'USG', charge: '250' },
+    { facility: 'Labour Charge (Normal Delivery)', charge: '500' },
+    { facility: 'Caesarean Delivery', charge: '800' },
+
+];
+
+
+export const investigationData = [
+    { srNo: 1, investigation: 'HAEMOGLOBIN', charge: '10' },
+    { srNo: 2, investigation: 'TOTAL LEUCOCYTE COUNT', charge: '10' },
+    { srNo: 3, investigation: 'DEFFERENTIAL LEUCOCYTE COUNT', charge: '10' },
+    { srNo: 4, investigation: 'ESR', charge: '10' },
+    { srNo: 5, investigation: 'COMPLETE BLOOD COUNT', charge: '150' },
+    { srNo: 6, investigation: 'PACKED CELL VOLUME', charge: '20' },
+    { srNo: 7, investigation: 'MEAN CORPUSCULAR VOLUME', charge: '20' },
+    { srNo: 8, investigation: 'MEAN CORPUSCULAR HAEMOGLOBIN', charge: '20' },
+    { srNo: 9, investigation: 'MEAN CORPUSCULAR HAEMOGLOBIN CONCENTRATION', charge: '20' },
+    { srNo: 10, investigation: 'RBC COUNT', charge: '10' },
+    { srNo: 11, investigation: 'PLATLET COUNT', charge: '40' },
+    { srNo: 12, investigation: 'BLEEDING TIME', charge: '15' },
+    { srNo: 13, investigation: 'CLOTTING TIME', charge: '15' },
+    { srNo: 14, investigation: 'BLOOD GROUP', charge: '30' },
+    { srNo: 15, investigation: 'WIDAL TEST', charge: '40' },
+    { srNo: 16, investigation: 'MP TEST', charge: '40' },
+    { srNo: 17, investigation: 'MOUNTOUX TEST', charge: '20' },
+    { srNo: 18, investigation: 'AFB', charge: '30' },
+    { srNo: 19, investigation: 'PLASMA SUGAR FASTING', charge: '50' },
+    { srNo: 20, investigation: 'PLASMA SUGAR PP( 2HRS AFTER MEAL)', charge: '50' },
+    { srNo: 21, investigation: 'PLASMA SUGAR PP( 2HRS AFTER ORAL 75gm GLUCOSE)', charge: '30' },
+    { srNo: 22, investigation: 'PLASMA SUGAR RANDOM', charge: '30' },
+    { srNo: 23, investigation: 'PLASMA SUGAR FASTING & PP', charge: '50' },
+    { srNo: 24, investigation: 'LIVER FUNCTION TET (LFT)', charge: '200' },
+    { srNo: 25, investigation: 'SERUM BILIRUBIN (TOTAL)', charge: '25' },
+    { srNo: 26, investigation: 'SERUM BILIRUBIN (DIRECT)', charge: '25' },
+    { srNo: 27, investigation: 'SERUM BILIRUBIN (INDIRECT)', charge: '30' },
+    { srNo: 28, investigation: 'SGPT(ALT)', charge: '50' },
+    { srNo: 29, investigation: 'SGOT (AST)', charge: '50' },
+    { srNo: 30, investigation: 'SERUM ALKALINE PHOSPHATASE', charge: '50' },
+    { srNo: 31, investigation: 'SERUM TOTAL PROTEIN', charge: '25' },
+    { srNo: 32, investigation: 'SERUM ALBUMIA', charge: '50' },
+    { srNo: 33, investigation: 'SERUM GLOBILIN', charge: '50' },
+    { srNo: 34, investigation: 'SERUM GAMMA GLUTAMY TRANSFERASE (CGT)', charge: '50' },
+    { srNo: 35, investigation: 'LIPID PROFILE', charge: '150' },
+    { srNo: 36, investigation: 'THYROID PROFILE', charge: '200' },
+    { srNo: 37, investigation: 'TOTAL T3', charge: '50' },
+    { srNo: 38, investigation: 'TOTAL T4', charge: '50' },
+    { srNo: 39, investigation: 'TSH', charge: '50' },
+    { srNo: 40, investigation: 'FREE THYROXINE (FT4)', charge: '50' },
+    { srNo: 41, investigation: 'SERUM URIC ACID (SUA)', charge: '30' },
+    { srNo: 42, investigation: 'SERUM CREATININE', charge: '20' },
+    { srNo: 43, investigation: 'BLOOD UREA', charge: '20' },
+    { srNo: 44, investigation: 'URINE R/M', charge: '50' },
+    { srNo: 45, investigation: 'URINE CULTURE', charge: '150' },
+    { srNo: 46, investigation: 'HIV', charge: '200' },
+    { srNo: 47, investigation: 'HBSAG', charge: '200' },
+    { srNo: 48, investigation: 'STOOL R/M', charge: '30' },
+    { srNo: 49, investigation: 'PREGNANCY TEST', charge: '30' },
+    { srNo: 50, investigation: 'ELECTROIYTE', charge: '60/100' },
+];

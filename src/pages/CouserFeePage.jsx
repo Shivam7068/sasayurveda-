@@ -36,10 +36,18 @@ const CourseFeePage = () => {
                         <li>The Letter Dated 15th January 2021 Was Received From The Govt. of  AYUSH Section,  Director And Ayurveda Services, Lucknow, In Which It Is Written That The Fee of Our Organization (SAS Ayurvedic Medical College and Hospital)  Has Been Fixed At 255500 (Two Lakh Fifty five Thousand five hundred only) for Student.
                         </li>
                         <li className='text-red-600 font-medium'>
-                            <a href="" target='_blank'>
+                            <a href="https://drive.google.com/file/d/1-lgFmxp2zwxsFx0zymCUjT3-FtKoJ9J2/view?usp=drive_link" target='_blank'>
                                 Click to See Decided Fee Govt. of AYUSH, Director, Lucknow
                             </a>
                         </li>
+                        <li className=''>
+                            Due to which we also want to determine an extra (Other) fee for student in order of this letter which is as follows.
+                        </li>
+
+                        <li>
+                            That’s why this meeting has been kept today on 25-01-2021.
+                        </li>
+
                     </ul>
                 </div>
                 <div className="bg-white shadow-md rounded-lg p-6 mb-8">

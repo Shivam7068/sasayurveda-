@@ -76,7 +76,18 @@ export const menuItemsData = [
                 submenu: [
                     {
                         title: "List of Teaching Staff Department wise",
-                        url: "/result/#bams-ug-result",
+                        submenu: [
+                            {
+                                title: "List of Teaching Staff Department wise",
+                                url: "https://drive.google.com/file/d/16s42dhjZPTXJFoKHn-MBdKz1pdEMnoXd/view?usp=drive_link",
+                                target: "_blank"
+                            },
+                            {
+                                title: "Teching Staff Details",
+                                url: "https://drive.google.com/file/d/1KCUAdRcq06YMjajLp_aJWVDpx_MWWhy0/view?usp=drive_link",
+                                target: "_blank"
+                            },
+                        ],
                     },
                     {
                         title: "Monthly Attendance of Teaching Staff",
@@ -96,6 +107,7 @@ export const menuItemsData = [
                     {
                         title: "Monthly Attendance of Non-Teaching Staff",
                         url: "https://drive.google.com/file/d/1LL73mfca32rEStFZcu8GBeGnAZkwQz2g/view?usp=sharing",
+                        target: "_blank",
                     },
                 ],
             },
@@ -286,8 +298,8 @@ export const menuItemsData = [
             },
             {
                 title: "Infrastructure of College",
-                url: "/infra of college",
-                // target: "_blank",
+                url: "/assets/Infrastructure-of-College.pdf",
+                target: "_blank",
             },
 
             {
@@ -316,12 +328,11 @@ export const menuItemsData = [
                     {
                         title: "Department wise Clinical Material and Facilities",
                         target: "_blank",
-                        url: "conference-activities",
+                        url: "/assets/Department-wise-Clinical-Material-and-facilities.pdf",
                     },
                     {
                         title: "Charge",
-                        target: "_blank",
-                        url: "conference-activities",
+                        url: "/hospital/charges",
                     },
                 ],
             },
