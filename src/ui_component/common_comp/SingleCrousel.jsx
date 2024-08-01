@@ -11,12 +11,12 @@ import inner from "/assets/lab.avif";
 
 
 const SingleCrousel = () => {
-    const heroimages = [front];
+    const heroimages = [front, front, front, front];
 
     // , students, body, top, lab, inner
     return (
         <div className="hero hero-img relative ">
-            <Carousel showArrows infiniteLoop showThumbs={false} >
+            <Carousel showArrows infiniteLoop showThumbs={false} autoPlay={true} >
                 {heroimages.map((image, index) => (
 
                     <div key={index} className=''>

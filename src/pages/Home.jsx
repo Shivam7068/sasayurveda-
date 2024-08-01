@@ -8,7 +8,7 @@ import Footer from '../ui_component/common_comp/Footer'
 import Trust from '../ui_component/home_com/Trust'
 import NewsBoard from '../ui_component/home_com/NewsBoard'
 
-const Home = () => {
+const   Home = () => {
     return (
         <div className=''>
             <SingleCrousel />

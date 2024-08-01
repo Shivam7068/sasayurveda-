@@ -3,10 +3,10 @@ import Heading from '../common_comp/Heading';
 
 const Gallery = () => {
     const items = [
-        { id: 1, imgSrc: '/assets/lab.avif' },
-        { id: 2, imgSrc: '/assets/lab.avif' },
-        { id: 3, imgSrc: '/assets/lab.avif' },
-        { id: 4, imgSrc: '/assets/lab.avif' },
+        { id: 2, imgSrc: '/assets/gallery/Icu.avif', title: 'ICU' },
+        { id: 1, imgSrc: '', title: '' },
+        { id: 3, imgSrc: '/assets/gallery/lab.avif', title: 'Lab' },
+        { id: 4, imgSrc: '/assets/gallery/herbal.avif', title: 'Herbal Garden' },
     ];
     return (
         <div className='h-auto bg-white p-4  rounded-lg z'>
@@ -27,7 +27,7 @@ const Gallery = () => {
                         transition-opacity duration-300 bg-black bg-opacity-60 font-extrabold text-white text-center rounded-lg '>
 
                                     <div className=' p-2 rounded-r-md bg-green-700'>
-                                        jehhfkjhd
+                                        {obj.title}
                                     </div>
                                 </div>
                             </div>
