@@ -18,11 +18,22 @@
 }
 
 body {
-    @apply font-nunito  ;
+    font-family: "Nunito", sans-serif;
+    width: 800;
+}
+
+* {
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: rounded;
+
 }
 
 .right_clip {
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: path('M0 155 Q 320 275 640 172 T 1519 210 V 320 H 0 Z');
+    /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
 }
 
 .top_clip {
