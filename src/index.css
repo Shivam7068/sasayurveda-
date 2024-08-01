@@ -32,7 +32,7 @@ body {
 }
 
 .right_clip {
-    clip-path: path('M0 155 Q 320 275 640 172 T 1519 210 V 320 H 0 Z');
+    clip-path: path('M0 155 Q 320 275 640 172 T 1800 277 V 320 H 0 Z');
     /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
 }
 
