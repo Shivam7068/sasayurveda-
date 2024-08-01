@@ -304,7 +304,7 @@ export const menuItemsData = [
 
             {
                 title: "Infrastructure of Hostel",
-                url: "/facilities/#hostel",
+                url: "/college/hostelInfra",
             },
             {
                 title: "Facilities",

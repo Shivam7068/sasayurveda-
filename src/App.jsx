@@ -22,6 +22,7 @@ import CollegeIntroduction from './pages/CollegeIntroduction'
 import Charges from './pages/Charges'
 import Whatsapp from './ui_component/common_comp/WhatsApp'
 import TopBar from './ui_component/common_comp/TopBar'
+import HostelInfrastructure from './pages/HostelInfrastructure'
 
 const App = () => {
   return (
@@ -46,6 +47,7 @@ const App = () => {
           <Route path='/gallery/extra-carricular' element={<GalleryPage galleryData={extraCarri} name={"Games and other extra curricular activities"} />} />
           <Route path='/college/intro' element={<CollegeIntroduction />} />
           <Route path='/hospital/charges' element={<Charges />} />
+          <Route path='/college/hostelInfra' element={<HostelInfrastructure />} />
 
         </Routes>
         <UsefulLinks />
