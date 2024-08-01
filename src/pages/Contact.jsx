@@ -2,8 +2,8 @@ import React from 'react';
 
 const ContactPage = () => {
     return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-100">
-            <div className="flex flex-col md:flex-row bg-white p-8 rounded-lg shadow-lg max-w-4xl w-full">
+        <div className="flex items-center justify-center bg-gray-100">
+            <div className="flex flex-col md:flex-row bg-white m-10 p-8 rounded-lg shadow-lg  w-full">
                 <div className="md:w-1/3 p-4 bg-green-500 text-white rounded-lg shadow-lg mb-8 md:mb-0 md:mr-8">
                     <h3 className="text-xl font-bold mb-4">Contact Details</h3>
                     <div className="mb-4">
