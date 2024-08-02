@@ -8,7 +8,6 @@ const MobileNav = () => {
     const [showMenu, setShowMenu] = useState(false);
     let ref = useRef();
 
-    console.log(showMenu);
     useEffect(() => {
         const handler = (event) => {
             if (showMenu && ref.current && !ref.current.contains(event.target)) {
@@ -27,13 +26,12 @@ const MobileNav = () => {
         <nav className="mobile-nav">
             <button
                 className="mobile-nav__menu-button"
-                type="button"
                 onClick={() => setShowMenu(!showMenu)}
             >
                 <RiMenu3Line />
             </button>
 
-            {showMenu && (
+            {!showMenu && (
                 <ul className="menus" ref={ref}>
                     {menuItemsData.map((menu, index) => {
                         return (
