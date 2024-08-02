@@ -17,7 +17,7 @@ const SingleCrousel = () => {
                 showThumbs={false}
                 showIndicators={false}
                 useKeyboardArrows
-                autoPlay
+                // autoPlay
                 interval={5000}
                 stopOnHover
             >
@@ -39,7 +39,7 @@ const SingleCrousel = () => {
                         </div>
                         <div className='bg-black'>
 
-                            <div className=" fixed top-[50vh] w-[100vw] md:w-[100vw] bg-white h-[35vh] text-white flex flex-col right_clip ">
+                            <div className=" fixed top-[54vh] w-[100vw] md:w-[100vw] bg-white h-[31vh] text-white flex flex-col right_clip">
 
                             </div>
                         </div>

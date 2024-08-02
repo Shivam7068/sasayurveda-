@@ -4,6 +4,7 @@ import introductionImage from '/assets/lab.avif'; // Make sure to replace with t
 const IntroductionPage = () => {
     return (
         <div className="flex flex-col items-center justify-center  bg-gray-100 p-4 ">
+            
             <div className="p-8 rounded-lg w-full shadow-lg shadow-orange-200">
                 <img src={introductionImage} alt="Introduction" className="rounded-lg mb-6 w-full h-64 object-cover" />
                 <h1 className="text-4xl font-bold mb-4 text-green-500 text-center">Welcome to Our College</h1>
