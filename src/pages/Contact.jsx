@@ -4,15 +4,17 @@ const ContactPage = () => {
     return (
         <div className="flex items-center justify-center bg-gray-100">
             <div className="flex flex-col md:flex-row bg-white m-10 p-8 rounded-lg shadow-lg  w-full">
-                <div className="md:w-1/3 p-4 bg-green-500 text-white rounded-lg shadow-lg mb-8 md:mb-0 md:mr-8">
+                <div className="md:w-1/3 p-4 bg-[#598a88] text-white rounded-lg shadow-lg mb-8 md:mb-0 md:mr-8">
                     <h3 className="text-xl font-bold mb-4">Contact Details</h3>
                     <div className="mb-4">
                         <h4 className="font-bold">Location:</h4>
-                        <p>123 Main Street, Anytown, USA</p>
+                        <p>Harauva, Varanasi</p>
                     </div>
                     <div className="mb-4">
                         <h4 className="font-bold">Phone:</h4>
-                        <p>(123) 456-7890</p>
+                        <p>+91-8765624982</p>
+                        <p>+91-9415255771</p>
+                        <p>+91-9657777459</p>
                     </div>
                     <div className="mb-4">
                         <h4 className="font-bold">Email:</h4>
@@ -58,7 +60,7 @@ const ContactPage = () => {
                         </div>
                         <div className="flex items-center justify-between">
                             <button
-                                className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                                className="bg-[#598a88] hover:bg-[#598a88c2] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                                 type="button"
                             >
                                 Send Message

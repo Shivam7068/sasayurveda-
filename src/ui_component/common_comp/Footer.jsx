@@ -63,13 +63,13 @@ const Footer = () => {
                     </h3>
                     {/* social media links */}
                     <div className="flex mt-4 md:mt-0 gap-8 justify-center">
-                        <a className="text-xl text-[#15803d] hover:text-[#407654]" href="https://www.facebook.com/bamchmau/">
+                        <a className="text-xl text-[#15803d] hover:text-[#407654]" href="">
                             <FaFacebook />
                         </a>
-                        <a className="text-xl text-[#15803d] hover:text-[#15803d]" href="https://www.instagram.com/explore/locations/105861897750708/bapu-ayurvedic-medical-college-and-hospital-mau/">
+                        <a className="text-xl text-[#15803d] hover:text-[#15803d]" href="">
                             <FaInstagram />
                         </a>
-                        <a className="text-xl text-[#15803d] hover:text-[#15803d]" href="https://www.youtube.com/@BapuAyurvedicMedicalCollege">
+                        <a className="text-xl text-[#15803d] hover:text-[#15803d]" href="">
                             <FaYoutube />
                         </a>
                         <a className="text-xl text-[#15803d] hover:text-[#15803d]" href="#">

@@ -5,7 +5,7 @@
 
 :root {
     --dark: #1d784d;
-    --light: #65bc51;
+    --light: #598a88;
     --white: #eef0f2;
 }
 
@@ -13,8 +13,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "Nunito", sans-serif; */
-
 }
 
 body {
@@ -22,14 +20,6 @@ body {
     width: 800;
 }
 
-* {
-
-    font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: rounded;
-
-}
 
 .right_clip {
     clip-path: path('M0 180 Q 160 100 320 180 T 640 180 T 960 180 T 1280 180 T 1600 180 T 1920 180 V 320 H 0 Z');

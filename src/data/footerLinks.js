@@ -4,20 +4,24 @@ export const footer = [
         link: "https://www.ncismindia.org/"
     },
     {
-        title: "Ministry Of AYUSH ",
+        title: "AYUSH ",
         link: "https://www.ayush.gov.in/"
     },
     {
-        title: "CSJM University",
-        link: "http://csjmu.ac.in/"
+        title: "India.gov.in",
+        link: "https://www.india.gov.in/"
     },
     {
-        title: "MGGAU Gorakhpur",
-        link: "http://www.mggaugkp.ac.in/"
+        title: "Ayurved UP",
+        link: "https://www.ayurvedup.in/"
     },
     {
-        title: "UP AYUSH Counseling",
-        link: "https://upayushcounseling.upsdc.gov.in/"
+        title: "up.gov.in",
+        link: ""
+    },
+    {
+        title: "mggaugkp",
+        link: "https://www.mggaugkp.ac.in/"
     }
 ]
 
@@ -46,29 +50,9 @@ export const social = [
 ]
 
 export const about = [
-    { title: "About College", to: "/" },
-    { title: "Management Team", to: "/" },
-    { title: "Course", to: "/" },
-    { title: "Affilation/Permission", to: "/" },
+    { title: "About College", to: "/about/introduction" },
+    { title: "Hospital", to: "/infra_hospital" },
+    { title: "Course", to: "/about/course-fee" },
+    { title: "Affilation/Permission", to: "/university-affiliation" },
 ]
 
-
-export const approval = [
-    {
-        img: "/assets/Logo/ncism.jpg",
-        bg: " to-[#908ac89d]"
-    },
-    {
-        img: "/assets/Logo/minstry-of-ayush.png",
-        bg: " to-[#709bd88b]"
-    },
-    {
-        img: "/assets/Logo/guru_gorakhnath.jpg",
-        bg: " to-[#d3768f9d]"
-    },
-
-    {
-        img: "/assets/Logo/logom.jpg",
-        bg: " to-[#0ba38c9d]"
-    }
-]

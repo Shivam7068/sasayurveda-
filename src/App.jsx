@@ -32,7 +32,6 @@ const App = () => {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/contact-us' element={<Contact />} />
           <Route path='/about/introduction' element={<IntroductionPage />} />
           <Route path='/about/course-fee' element={<CourseFeePage />} />
           <Route path='/about/rule-regulation' element={<RulesRegulationPage />} />
@@ -48,6 +47,7 @@ const App = () => {
           <Route path='/college/intro' element={<CollegeIntroduction />} />
           <Route path='/hospital/charges' element={<Charges />} />
           <Route path='/college/hostelInfra' element={<HostelInfrastructure />} />
+          <Route path='/contact-us' element={<Contact />} />
 
         </Routes>
         <UsefulLinks />

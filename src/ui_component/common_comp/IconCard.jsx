@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { MdLocalHospital } from "react-icons/md";
 import { PiStudentFill } from "react-icons/pi";
 import { FaChalkboardTeacher } from "react-icons/fa";
@@ -7,6 +7,7 @@ import { FaHospitalAlt } from "react-icons/fa";
 import Heading from './Heading';
 
 const IconCard = () => {
+
 
     const whyChooseUs = [
         {
@@ -35,7 +36,7 @@ const IconCard = () => {
             <Heading name={"Why Choose Us"} />
             <div className='main max-w-screen w-full grid md:grid-cols-2 lg:grid-cols-4 gap-3 justify-center items-stretch m-auto'>
                 {whyChooseUs.map((pro, i) => (
-                    <div key={i} className='bg-gray-200 p-2 w-full m-auto rounded-md gap-3 grid hover:bg-green-700 hover:text-white justify-center items-center'>
+                    <div key={i} className='bg-gray-200 p-2 w-full m-auto rounded-md gap-3 grid hover:bg-[#dfe2db] transition justify-center items-center' >
                         <div className='text-[35px] group-hover:text-white'>
                             {pro.icon}
                         </div>

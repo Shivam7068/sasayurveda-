@@ -21,7 +21,6 @@ export const menuItemsData = [
             },
             {
                 title: "Permissions and Affiliations",
-                url: "/about/#mission-vision",
                 submenu: [
                     {
                         title: "State NOC",
@@ -285,11 +284,10 @@ export const menuItemsData = [
     },
     {
         title: "College",
-        url: "/",
         submenu: [
             {
                 title: " College Introduction",
-                 url: "/college/intro",
+                url: "/college/intro",
             },
             {
                 title: "College Council",
@@ -315,7 +313,6 @@ export const menuItemsData = [
     },
     {
         title: "Hospital",
-        url: "/media",
         submenu: [
             {
                 title: "Introduction with Infrastructure",
@@ -338,7 +335,6 @@ export const menuItemsData = [
             },
             {
                 title: "Monthly Attendance Of Patient",
-                // url: "/events",
                 submenu: [
                     {
                         title: "For OPD",

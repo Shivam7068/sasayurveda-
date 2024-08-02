@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from '../common_comp/Heading'
-import { approval } from '../../data/footerLinks'
+// import { approval } from '../../data/footerLinks'
 
 const Trust = () => {
     return (
