@@ -280,6 +280,24 @@ export const menuItemsData = [
                     },
                 ],
             },
+            {
+                title: "Important Links",
+                submenu: [
+                    {
+                        title: "Charak Samhita Ebook",
+                    },
+                    {
+                        title: "Sushrut Samhita Ebook",
+                        url: "https://drive.google.com/file/d/1OeGY6WSIVAeMwN5TabtmlpXKgvsFrXIp/view?usp=drive_link",
+                        target: "_blank",
+                    },
+                    {
+                        title: "Ashtang Hriday Ebook",
+                        url: "https://drive.google.com/file/d/1Lc4pX8IbPzQDBndee-zCdhNCbGWcXvpa/view?usp=drive_link",
+                        target: "_blank",
+                    }
+                ],
+            },
         ],
     },
     {

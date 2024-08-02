@@ -3,7 +3,6 @@ import Navbar from './ui_component/Navbar'
 import Header from './ui_component/Header'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import UsefulLinks from './ui_component/home_com/UsefulLinks'
 import Contact from './pages/Contact'
 import CollegeCouncil from './pages/CollegeHostelPage'
 import IntroductionPage from './pages/Introduction'
@@ -50,7 +49,6 @@ const App = () => {
           <Route path='/contact-us' element={<Contact />} />
 
         </Routes>
-        <UsefulLinks />
         <Whatsapp />
         <Footer />
       </BrowserRouter>
