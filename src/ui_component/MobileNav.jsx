@@ -1,13 +1,14 @@
 import React, { useEffect, useRef, useState } from "react";
-import { menuItemsData } from "../data/menuItemData";
 import MobileMenuItems from "./MobileMenuItem";
 import { RiMenu3Line } from "react-icons/ri";
+import { menuItemsData } from "../data/navData";
 
 const MobileNav = () => {
     const depthLevel = 0;
     const [showMenu, setShowMenu] = useState(false);
     let ref = useRef();
 
+    console.log(showMenu);
     useEffect(() => {
         const handler = (event) => {
             if (showMenu && ref.current && !ref.current.contains(event.target)) {
@@ -27,7 +28,7 @@ const MobileNav = () => {
             <button
                 className="mobile-nav__menu-button"
                 type="button"
-                onClick={() => setShowMenu((prev) => !prev)}
+                onClick={() => setShowMenu(!showMenu)}
             >
                 <RiMenu3Line />
             </button>
