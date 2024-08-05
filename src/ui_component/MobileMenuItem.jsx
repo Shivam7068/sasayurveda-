@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import MobileDropdown from "./MobileDropdown";
 
 const MobileMenuItems = ({ items, depthLevel, showMenu, setShowMenu }) => {
-    console.log({ items });
     const [dropdown, setDropdown] = useState(false);
 
     const closeDropdown = () => {

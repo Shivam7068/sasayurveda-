@@ -5,7 +5,7 @@ import { menuItemsData } from "../data/navData";
 
 const MobileNav = () => {
     const depthLevel = 0;
-    const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(true);
     let ref = useRef();
 
     useEffect(() => {
