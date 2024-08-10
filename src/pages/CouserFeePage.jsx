@@ -52,14 +52,8 @@ const CourseFeePage = () => {
                 </div>
                 <div className="bg-white shadow-md rounded-lg p-6 mb-8">
                     <h2 className="text-2xl font-semibold text-green-700 mb-2">Fee Structure:</h2>
-                    <ul className="list-disc ml-6 text-gray-700">
-                        <li>Tuition Fee per year – ₹2,55,500</li>
-                        <li>Hostel fee (Including Mess, Non-AC) per year – ₹85,000</li>
-                        <li>Lab Fee (For 4 ½ year) – ₹5,000</li>
-                        <li>Cultural/Sports fee (4 ½ year) – ₹6,000</li>
-                        <li>A.C./Warmer Allowance Fee per year (Optional) – ₹12,500</li>
-                        <li>Security Money (refundable) – ₹50,000</li>
-                        <li>Prospectus Fee – ₹1,000</li>
+                    <ul className="list-disc ml-6 text-gray-700 h-[100vh] w-[50%] overflow-hidden">
+                        <img className='w-full h-full ' src="/assets/fee.jpeg" alt="" />
                     </ul>
                 </div>
                 <div className="bg-white shadow-md rounded-lg p-6 mb-8">
