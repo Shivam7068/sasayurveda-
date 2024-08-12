@@ -39,7 +39,6 @@ export const menuItemsData = [
             },
             {
                 title: "Other Activities",
-                url: "",
                 submenu: [
                     {
                         title: "Continuous Medical Education",

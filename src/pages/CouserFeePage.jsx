@@ -52,7 +52,7 @@ const CourseFeePage = () => {
                 </div>
                 <div className="bg-white shadow-md rounded-lg p-6 mb-8">
                     <h2 className="text-2xl font-semibold text-green-700 mb-2">Fee Structure:</h2>
-                    <ul className="list-disc ml-6 text-gray-700 h-[100vh] w-[50%] overflow-hidden">
+                    <ul className="list-disc ml-6 text-gray-700 h-[100vh] w-full md:w-[50%] overflow-hidden">
                         <img className='w-full h-full ' src="/assets/fee.jpeg" alt="" />
                     </ul>
                 </div>

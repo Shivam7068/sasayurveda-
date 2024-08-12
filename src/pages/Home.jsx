@@ -7,8 +7,9 @@ import Gallery from '../ui_component/home_com/Gallery'
 import Footer from '../ui_component/common_comp/Footer'
 import Trust from '../ui_component/home_com/Trust'
 import NewsBoard from '../ui_component/home_com/NewsBoard'
+import VideoTestimonial from '../ui_component/home_com/VideoTestimonial'
 
-const   Home = () => {
+const Home = () => {
     return (
         <div className=''>
             <SingleCrousel />
@@ -18,8 +19,9 @@ const   Home = () => {
                 <Gallery />
                 {/* <Trust /> */}
                 <NewsBoard />
+                <VideoTestimonial />
                 <Testimonials />
-            </div> 
+            </div>
         </div>
     )
 }
