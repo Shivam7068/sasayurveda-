@@ -45,7 +45,7 @@ const CollegeCouncilPage = () => {
               <br />
               In this meeting, all Faculty members and society members decided to increase the fee for BAMS as per the govt. letter of AYUSH, Lucknow dated 15-01-2021. In this regard, all council members decided to set the fee from the 2020-21 batch at ₹2,55,500 (Two Lakh Fifty-Five Thousand Five Hundred Only) and also decided on an extra fee for all students at the time of admission (one time in 4 ½ years).
             </p>
-            <a href="#" className="text-green-600 underline font-semibold hover:text-green-800 mb-4 inline-block">Click To See Govt. letter of AYUSH, Lucknow</a>
+            <a href="https://drive.google.com/file/d/1-lgFmxp2zwxsFx0zymCUjT3-FtKoJ9J2/view?usp=sharing" target='_blank' className="text-green-600 underline font-semibold hover:text-green-800 mb-4 inline-block">Click To See Govt. letter of AYUSH, Lucknow</a>
           </div>
           <div>
             <h2 className="text-xl font-semibold text-green-800 mb-2">Fee Details:</h2>

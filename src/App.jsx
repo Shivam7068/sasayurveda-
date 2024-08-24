@@ -19,6 +19,7 @@ import Charges from './pages/Charges'
 import Whatsapp from './ui_component/common_comp/WhatsApp'
 import TopBar from './ui_component/common_comp/TopBar'
 import HostelInfrastructure from './pages/HostelInfrastructure'
+import CollegeFacilities from './pages/College_Facility'
 
 const App = () => {
   return (
@@ -31,7 +32,8 @@ const App = () => {
           <Route path='/about/introduction' element={<IntroductionPage />} />
           <Route path='/about/course-fee' element={<CourseFeePage />} />
           <Route path='/about/rule-regulation' element={<RulesRegulationPage />} />
-          <Route path='/College/college-council' element={<CollegeCouncil />} />
+          <Route path='/college/college-council' element={<CollegeCouncil />} />
+          <Route path='/college/college-hostel-facilities' element={<CollegeFacilities />} />
           <Route path='/college/introduction' element={<CollegeHostelPage />} />
           <Route path='/university-affiliation' element={<Affiliation />} />
           <Route path='/permission-letter' element={<PermissionLetters />} />

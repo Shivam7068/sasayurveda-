@@ -33,12 +33,12 @@ const Affiliation = () => {
                 <h2 className="text-xl font-semibold mb-4">Maha Yogi Guru Gorakhnath AYUSH University</h2>
                 <ul className="list-disc list-inside mb-6">
                     <li>
-                        <a href="#" className="text-blue-500 hover:underline">
+                        <a href="https://drive.google.com/file/d/1WQkWz0O33BHk5th4XVuZNTkd-szHq2ab/view?usp=sharing" target='_blank' className="text-blue-500 hover:underline">
                             Affiliation Letter 2021-22
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="text-blue-500 hover:underline">
+                        <a href="https://drive.google.com/file/d/1f7sDL4RwijhJ6M4JCm_U-BqfUZ7e1aki/view?usp=sharing" target='_blank' className="text-blue-500 hover:underline">
                             Affiliation Letter 2022-23
                         </a>
                     </li>

@@ -153,12 +153,12 @@ export const menuItemsData = [
                     },
                     {
                         title: "Student List (Batch 2018-19)",
-                        // url: "/result/#pg-medical-au-result",
+                        url: "https://drive.google.com/file/d/1K83algltFk1_MdTan14OwO7Hyc_mpFSV/view?usp=drive_link",
                         target: "_blank",
                     },
                     {
                         title: "Student List (Batch 2017-18)",
-                        // url: "/result/#pg-medical-au-result",
+                        url: "https://drive.google.com/file/d/1hnjgGkCoCqNcLJhhiwkhM6ziI2ljpu3E/view?usp=sharing",
                         target: "_blank",
                     },
                 ],
@@ -308,8 +308,7 @@ export const menuItemsData = [
             },
             {
                 title: "College Council",
-                url: "https://drive.google.com/file/d/1-lgFmxp2zwxsFx0zymCUjT3-FtKoJ9J2/view?usp=sharing",
-                target: "_blank",
+                url: "/college/college-council",
             },
             {
                 title: "Infrastructure of College",
@@ -323,8 +322,7 @@ export const menuItemsData = [
             },
             {
                 title: "Facilities",
-                url: "/hospital_infra.pdf",
-                target: "_blank",
+                url: "/college/college-hostel-facilities", 
             },
         ],
     },
