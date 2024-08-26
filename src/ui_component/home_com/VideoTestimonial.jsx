@@ -18,7 +18,7 @@ const VideoTestimonial = () => {
                     <div className='relative bg-black md:h-[75vh] overflow-hidden rounded-lg group border-2 border-gray-800'>
                         <iframe
                             className='w-full h-full bg-cover '
-                            src={items[0].videoSrc}
+                            src={items[0].videoSrc} 
                             title={items[0].title}
                             allowFullScreen
                         />

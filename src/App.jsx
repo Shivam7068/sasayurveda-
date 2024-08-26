@@ -20,6 +20,7 @@ import Whatsapp from './ui_component/common_comp/WhatsApp'
 import TopBar from './ui_component/common_comp/TopBar'
 import HostelInfrastructure from './pages/HostelInfrastructure'
 import CollegeFacilities from './pages/College_Facility'
+import Apply from './pages/Apply'
 
 const App = () => {
   return (
@@ -46,6 +47,8 @@ const App = () => {
           <Route path='/hospital/charges' element={<Charges />} />
           <Route path='/college/hostelInfra' element={<HostelInfrastructure />} />
           <Route path='/contact-us' element={<Contact />} />
+          <Route path='/apply-now' element={<Apply />} />
+
 
         </Routes>
         <Whatsapp />
