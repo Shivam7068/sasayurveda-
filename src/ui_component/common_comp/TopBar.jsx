@@ -6,9 +6,9 @@ const TopBar = () => {
     return (
         <div className='bg-[#598a88] p-1 flex md:flex-row flex-col'>
             <div className='md:w-[80%] w-full flex justify-between m-auto md:flex-row flex-col gap-5'>
-                <div className='md:flex hidden items-center text-white text-bold text-xl gap-10 md:m-0 m-auto'>
+                <a href='/apply-now' target='_blank' className='md:flex hidden items-center text-white text-bold text-xl gap-10 md:m-0 m-auto'>
                     BAMS Admissions are now open
-                </div>
+                </a>
 
                 <div className='flex flex-col items-center text-white text-bold text-md gap-2 '>
                     <a href='tel:' className='flex items-center gap-3'>
