@@ -15,10 +15,22 @@
 
 <body>
   <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script> 
-  <script type="module" src="https://ntechzy.in/api/v1/student-form/form.js" path='["/contact-us","/apply-now", "/dynamicForm/index.html"]' courses='["BAMS"]' styles="basic" logo="https://naiminathayurveda.org/images/ayurvedalogo.png" divid="formsID7375" contact="9528024473"></script> 
-   
-  
-</body>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    window.mainScriptLoaded = function () {
+      const script = document.createElement('script');
+      script.type = 'module';
+      script.src = 'https://ntechzy.in/api/v1/student-form/form.js';
+      // script.src = 'http://localhost:4000/api/v1/student-form/form.js';
+      script.setAttribute('path', '["/contact-us", "/dynamicForm/index.html"]');
+      script.setAttribute('divid', 'formsID7375');
+      script.setAttribute('courses', '["Select Course","BAMS", "BHMS", "BUMS", "MBBS", "BDS"]');
+      script.setAttribute('styles', 'basic');
+      script.setAttribute('logo', '');
+      script.setAttribute('contact', '+123-456-7890');
+      document.body.appendChild(script);
+    };
 
-</html>
+</body >
+
+</html >
