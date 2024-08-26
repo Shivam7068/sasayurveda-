@@ -2,7 +2,9 @@ import React from 'react'
 
 const Apply = () => {
     return (
-        <div id='formsID7375'></div>
+        <>
+        </>
+        // <div id='formsID7375'></div>
     )
 }
 
